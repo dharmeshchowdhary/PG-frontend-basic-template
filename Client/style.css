@@ -49,3 +49,17 @@
 .sec-2-content{
     width: 50%;
 }
+.preferences{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preferences-child{
+    padding: 5rem;
+}
+.preferences-child h2{
+    padding: 2rem 0 1rem 0;
+}
+.preferences-child input{
+    margin: 0.5rem;
+}
