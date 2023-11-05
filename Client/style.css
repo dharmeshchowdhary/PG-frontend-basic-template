@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'poppins';
+    font-weight: 200;
 }
 .nav{
     display: flex;
@@ -58,8 +59,22 @@
     padding: 5rem;
 }
 .preferences-child h2{
-    padding: 2rem 0 1rem 0;
+    padding: 2rem 0 1rem;
 }
 .preferences-child input{
     margin: 0.5rem;
+}
+.about-us-page{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.about-us-page h1{
+    padding: 1rem;
+}
+.about-us-para{
+    width: 70%;
+    padding: 1rem;
 }
